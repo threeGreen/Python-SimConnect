@@ -668,6 +668,7 @@ class AircraftEvents():
 			(b'MARKER_SOUND_TOGGLE', "Toggles marker beacon sound on/off", "Shared Cockpit"),
 			(b'Unsupported', "Sets marker beacon sound (1, 0),", "Shared Cockpit"),
 			(b'ADF_COMPLETE_SET', "Sets ADF 1 frequency (BCD Hz),", "Shared Cockpit"),
+			(b'ADF1_RADIO_SWAP', "Swaps ADF 1 frequency with standby"),
 			(b'ADF1_WHOLE_INC', "Increments ADF 1 by 1 KHz, with carry as digits wrap.", "Shared Cockpit"),
 			(b'ADF1_WHOLE_DEC', "Decrements ADF 1 by 1 KHz, with carry as digits wrap.", "Shared Cockpit"),
 			(b'ADF2_100_INC', "Increments the ADF 2 frequency 100 digit, with wrapping", "Shared Cockpit"),
